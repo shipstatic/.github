@@ -1,3 +1,5 @@
+### The simplest CLI for shareable links to your web files. Password optional.
+
 Most people arrive here the same way: they asked an AI coding assistant to put an HTML report, prototype, or small website online, and it found the shortest path.
 
 ```bash
