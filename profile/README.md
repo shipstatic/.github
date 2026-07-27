@@ -4,7 +4,7 @@ Most people arrive here the same way: they asked an AI coding assistant to put a
 npx @shipstatic/ship ./dist
 ```
 
-No installation, no account, no API key, no configuration. The assistant can publish immediately and, seconds later, you have a real, public URL to share. You'll also get a claim link to move the site into your own account. Unclaimed sites stay online for three days.
+No installation, no account, no API key, no configuration. The assistant can publish immediately and, seconds later, you have a real, public URL to share.
 
 Need to share privately? Just add `--password`. The site will ask for it before anyone can access it, perfect for client drafts, reports, and works in progress.
 
