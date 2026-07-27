@@ -6,6 +6,6 @@ npx @shipstatic/ship ./dist
 
 No installation, no account, no API key, no configuration. The assistant can publish immediately and, seconds later, you have a real, public URL to share. You'll also get a claim link to move the site into your own account. Unclaimed sites stay online for three days.
 
-Need to share privately? Just add `--password`. The site will ask for it before anyone can access it—perfect for client drafts, reports, and works in progress.
+Need to share privately? Just add `--password`. The site will ask for it before anyone can access it, perfect for client drafts, reports, and works in progress.
 
 If your assistant prefers tools over terminal commands, it can use `@shipstatic/mcp`. ShipStatic publishes your static files exactly as they are, so simply point it at `./dist`, `./out`, `./public`, or `.`.
