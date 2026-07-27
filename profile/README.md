@@ -1,12 +1,11 @@
-## Hi there 👋
+Most people arrive here the same way: they asked an AI coding assistant to put an HTML report, prototype, or small website online, and it found the shortest path.
 
-<!--
+```bash
+npx @shipstatic/ship ./dist
+```
 
-**Here are some ideas to get you started:**
+No installation, no account, no API key, no configuration. The assistant can publish immediately and, seconds later, you have a real, public URL to share. You'll also get a claim link to move the site into your own account. Unclaimed sites stay online for three days.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Need to share privately? Just add `--password`. The site will ask for it before anyone can access it—perfect for client drafts, reports, and works in progress.
+
+If your assistant prefers tools over terminal commands, it can use `@shipstatic/mcp`. ShipStatic publishes your static files exactly as they are, so simply point it at `./dist`, `./out`, `./public`, or `.`.
